@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&family=Sunflower:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>신입 웹퍼블리셔 김민세</title>
+
+    <style>
+    .hideme
+    {
+        opacity:0;
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="wrap">
+<!-- brgin header -->
+    <header id="con">
+    <a href="#con">  <div class="page_headerbar">
+      <p>처음으로</p>
+      </div> </a>
+      <div class="page_header">
+        <div class="profile_title">
+          <h1>신입<br>웹퍼블리셔<br>김민세</h1>
+        </div>
+
+        <div class="profile">
+
+        </div>
+
+      </div>
+    </header>
+<!-- end header -->
+
+    <section>
+
+
+        <div class="container">
+          <div class="content1">
+
+          </div>
+            <div class="container_content">
+              <ul class="hideme">
+                <li>
+                  이름 : 김민세<br>
+                  나이 : 만25세<br>
+                  학력 : 영동대학교 정보통신보안학과 중퇴 <br>
+                  병역 : 육군병장 만기전역 <br>
+                  수료 : 그린컴퓨터 아카데미 2022.04월~07월(진행중)<br>
+                  경력 : 에이스네트워크(1년6개월)-전산 및 유지보수 <br>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="skills">
+              <h2>활용가능언어</h2>
+              <div class="content2">
+
+              </div>
+            </div>
+
+          <div class="content3">
+            <h2>입사 후 포부</h2>
+            <div class="hideme">
+              <strong>"IT분야에서 첫 계단을 밟는 심정으로 성장하겠습니다""</strong>
+              <p>어릴 때부터 IT 분야에 관심을 가지고 있던 저는 대학 진학 당시에도 고민하기보단 도전해서 해내겠다는 마음으로
+                빠르게 결정하였었습니다.<br> 늘 동경해왔고 꿈을 이루기 위해 많은 것을 공부하며 준비했습니다.<br> 저는 큰 책임감을 가
+                지고 업무에 임할 것입니다.<br> 개발이라는 것은 끊임없는 점검과 오류수정을 반복하는 일이 많고 또한 기한에 맞춰서
+                업무를 끝내야 하기 때문에 <br> 한순간도 게을러지지 않고 열정적으로 일하는 사람이 되겠습니다.<br> 어떠한 일도 마다하
+                지 않고 알려주시는 모든 업무를 열심히 배워서 성장하되 저 혼자만의 역량을 키우는 것이 아닌 기업과 함께 성장
+                하고 싶습니다.</p>
+            </div>
+          </div>
+
+          <div class="content4">
+            <div class="as">
+              <h1>연락처 및 이메일주소</h1>
+              <ul>
+                <li>010-7440-6447</li>
+                <li>alstp0715@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+
+    </section>
+
+    <footer>
+      <div class="page_footer">
+        <p>포트폴리오용 사이트입니다</p>
+      </div>
+
+    </footer>
+
+
+<script>
+$(document).ready(function() {
+  $(window).scroll( function(){
+
+      $('.hideme').each( function(i){
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight()/ 3;
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          /* 3 */
+          if( bottom_of_window > bottom_of_object/2 ){
+              $(this).animate({'opacity':'1'},1000);
+          }
+      });
+  });
+});
+
+</script>
+  </body>
+</html>

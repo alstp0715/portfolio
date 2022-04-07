@@ -1,0 +1,159 @@
+#wrap
+{
+  width:100%; margin:0 auto;
+  min-width: 1200px
+}
+.page_headerbar {
+    border-radius: 40%;
+    position: fixed;
+    margin: 20px 0 0 20px;
+    width: 64px;
+    height: 50px;
+    background-color: #7c8db7d6;
+    z-index: 1;
+}
+.page_headerbar p
+{
+  text-align: center;
+  padding-top: 14px;
+}
+.profile
+{
+  display: inline-block;
+  position: absolute;
+  width: 643px;
+  height: 799px;
+  left: 500px;
+  top: 130px;
+  background-color: #87ceeb40;
+  z-index: -1;
+}
+.profile:after
+{
+  content: '';
+  display: block;
+  position: absolute;
+  right: -46px;
+  top: -58px;
+  width: 628px;
+  height: 809px;
+  background-image: url(./profile.png);
+  background-size: 628px;
+}
+.profile_title
+{
+  position: absolute;
+  left: 60px;
+  top: 500px;
+}
+.profile_title h1
+{
+  font-size: 110px;
+      line-height: 1.2;
+      color: #67b2f3;
+}
+#wrap header {
+    width: 100%;
+    margin-bottom: 150px;
+}
+.page_header
+{
+  position: relative;
+margin: 0 auto;
+width: 1200px;
+height: 960px;
+}
+*
+{
+  font-family: 'Gothic A1', sans-serif;
+}
+.container
+{
+  position: relative;
+  width: 1200px;
+  left: 26px;
+  height: 500px;
+}
+
+.content1
+{
+  display: inline-block;
+  width: 451px;
+  left: 26px;
+  height: 489px;
+  background-image: url(./con1.jpg);
+  background-size: 454px;
+}
+
+.container_content
+{
+  position: absolute;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 2;
+}
+.container_content ul
+{
+  position: relative;
+    left: 90px;
+    top: 110px;
+}
+.content2
+{
+  margin: auto;
+  width: 500px;
+  height: 100px;
+  background-size: 504px;
+  background-image: url(./con2.png);
+}
+.skills
+{
+  position: relative;
+  margin: 80px 0 200px 0;
+  font-size: 30px;
+  text-align: center;
+}
+.content1:before
+{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 1140px;
+  height: 540px;
+  background-color: #87ceeb40;
+  z-index: -1;
+  left: -26px;
+  top: -22px;
+}
+.content3
+{
+  text-align: center;
+  height: 284px;
+  line-height: 2;
+  width: 100%;
+  margin: auto;
+  background-color: #87ceeb40;
+}
+.content4
+{
+
+  margin: 50px 100px 30px 0;
+  height: 100px;
+  line-height: 1.8;
+}
+section h2
+{
+ font-size: 26px;
+}
+.page_footer
+{
+  padding: 20px;
+  color: #ffffff73;
+  height: 40px;
+  background-color: #0b1734;
+  text-align: center;
+}
+.as
+{
+  float: right;
+}
